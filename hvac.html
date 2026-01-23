@@ -221,6 +221,47 @@
                 </div>
             </div>
         </section>
+
+        <section class="quote-form-section">
+            <h2>Get an Instant Quote</h2>
+            <p>Fill out the form below and local HVAC professionals will contact you with quotes.</p>
+            <form class="quote-form" action="#" method="POST">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service Type</label>
+                        <select id="service" name="service">
+                            <option value="plumbing">Plumbing</option>
+                            <option value="electrical">Electrical</option>
+                            <option value="hvac" selected>HVAC</option>
+                            <option value="roofing">Roofing</option>
+                            <option value="pest-control">Pest Control</option>
+                            <option value="lawn-care">Lawn Care</option>
+                            <option value="general-contracting">General Contracting</option>
+                            <option value="home-security">Home Security</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="description">Describe Your Project *</label>
+                    <textarea id="description" name="description" rows="4" required placeholder="Please describe the work you need done..."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary btn-large">Request Free Quotes</button>
+            </form>
+        </section>
     </main>
 
     <footer>
