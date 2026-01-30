@@ -884,3 +884,20 @@ footer {
     width: 100%;
     font-size: 0.9rem;
 }
+
+/* Directory summary - plain-facts paragraph for AI citability */
+.directory-summary {
+    max-width: 900px;
+    margin: 0 auto 1.5rem;
+    padding: 1rem 1.5rem;
+    background: var(--bg-light);
+    border-left: 4px solid var(--primary-color);
+    border-radius: 4px;
+    font-size: 0.95rem;
+    line-height: 1.7;
+    color: var(--text-dark);
+}
+
+.directory-summary p {
+    margin: 0;
+}
